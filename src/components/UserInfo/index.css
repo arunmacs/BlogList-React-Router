@@ -1,0 +1,40 @@
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-image {
+  height: 150px;
+  margin: 12px 5px 12px 5px;
+}
+
+.profile-name {
+  color: #12022f;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 12px 5px 12px 5px;
+}
+
+.designation {
+  color: #616e7c;
+  font-size: 22px;
+  margin: 12px 5px 12px 5px;
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    height: 200px;
+    margin: 14px 5px 14px 5px;
+  }
+
+  .profile-name {
+    font-size: 28px;
+  }
+
+  .designation {
+    font-size: 24px;
+  }
+}
